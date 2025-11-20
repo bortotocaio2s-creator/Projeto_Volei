@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vôlei Brasil</title>
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+  <header>
+    <div class="container header-content">
+      <img src="./src/assets/images/Logo_Volei_Brasil.png" alt="Logo Vôlei Brasil" class="logo">
+      <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#historia">História</a>
+        <a href="#atletas">Atletas</a>
+        <a href="#noticias">Notícias</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-content">
+      <div>
+        <h1>A força do Vôlei Brasileiro</h1>
+        <p>O Brasil é uma das maiores potências do vôlei mundial. Descubra a história, os atletas e as conquistas que marcaram o país.</p>
+        <button onclick="scrollToSection('historia')">Ver História</button>
+      </div>
+      <img src="./src/assets/images/volei-selecao.jpg" alt="Seleção Brasileira de Vôlei">
+    </div>
+  </section>
+
+  <section id="historia" class="historia">
+    <div class="container">
+      <h2>História do Vôlei no Brasil</h2>
+      <p>O vôlei chegou ao Brasil no início do século XX e rapidamente se tornou paixão nacional. Com grandes nomes como Giba e Serginho, o país conquistou títulos olímpicos e mundiais, tornando-se referência no esporte.</p>
+      <div class="imagens">
+        <img src="./src/assets/images/giba.jpg" alt="Giba jogando vôlei">
+        <img src="./src/assets/images/serginho.jpg" alt="Serginho defendendo">
+      </div>
+    </div>
+  </section>
+
+  <section id="atletas" class="atletas">
+    <div class="container">
+      <h2>Atletas em Destaque</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="./src/assets/images/giba.jpg" alt="Giba">
+          <h3>Giba</h3>
+          <p>Campeão Olímpico e símbolo da Seleção Brasileira.</p>
+        </div>
+        <div class="card">
+          <img src="./src/assets/images/serginho.jpg" alt="Serginho">
+          <h3>Serginho</h3>
+          <p>Melhor líbero da história e bicampeão olímpico.</p>
+        </div>
+        <div class="card">
+          <img src="./src/assets/images/sheilla.jpg" alt="Sheilla">
+          <h3>Sheilla</h3>
+          <p>Referência do vôlei feminino e campeã olímpica.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="noticias" class="noticias">
+    <div class="container">
+      <h2>Notícias Recentes</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="./src/assets/images/noticia-volei-1.jpg" alt="Notícia 1">
+          <h3>Brasil vence clássico contra a Itália</h3>
+          <p>A Seleção Brasileira de Vôlei conquista vitória emocionante no amistoso internacional.</p>
+        </div>
+        <div class="card">
+          <img src="./src/assets/images/noticia-volei-2.jpg" alt="Notícia 2">
+          <h3>Novo talento brilha no vôlei feminino</h3>
+          <p>Atleta de 19 anos se destaca em torneio nacional e chama atenção da comissão técnica.</p>
+        </div>
+        <div class="card">
+          <img src="./src/assets/images/noticia-volei-3.jpg.png" alt="Notícia 3">
+          <h3>Projeto social leva vôlei a comunidades</h3>
+          <p>Iniciativa do Vôlei Brasil leva o esporte a jovens de baixa renda em todo o país.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="contato" class="section-anim">
+            <h2>Contato</h2>
+            <p>Veja alguns dos meus repositorios<br>
+                <a href="https://github.com/bortotocaio2s-creator">Github</a>
+            </p>
+        </section>
+  <footer>
+    <div class="container footer-content">
+      <p>Vôlei Brasil — Orgulho nacional do esporte.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
